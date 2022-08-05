@@ -2,6 +2,7 @@
     "files.associations": {
         "iostream": "cpp",
         "sstream": "c",
-        "regex": "c"
+        "regex": "c",
+        "random": "cpp"
     }
 }
