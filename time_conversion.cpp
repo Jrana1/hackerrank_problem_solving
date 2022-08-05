@@ -11,7 +11,7 @@ string time_conversion(string s)
     str1 += s[0];
     str1 += s[1];
     int hour = stoi(str1);
-    if (str == "am" && hour >= 12)
+    if (str == "AM" && hour >= 12)
     {
         hour = (hour + 12) % 24;
         string st = to_string(hour);
@@ -26,7 +26,7 @@ string time_conversion(string s)
         // cout << s << endl;
     }
 
-    if (str == "pm" && hour < 12)
+    if (str == "PM" && hour < 12)
     {
         hour = (hour + 12) % 24;
         string st = to_string(hour);
