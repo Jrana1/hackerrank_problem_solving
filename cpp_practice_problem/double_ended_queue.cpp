@@ -37,6 +37,7 @@ void myFun(vector<int> &vec, int k)
         dq.push_back(i);
     }
 
+    // using deque DS and Sliding windows technique in O(n) time
     for (; i < vec.size(); i++)
     {
 
